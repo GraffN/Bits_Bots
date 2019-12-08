@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: lightskyblue;
+    padding: 30px;
+    margin-top: 50px;
+    @media screen and (min-width: 786px){
+        display: inline-flex;
+    }
+    &__logo{
+        background-image: url(./assets/bitsnbotslogo.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        @media screen and (min-width: 786px){
+            width: 30%;
+            
+            
+        }
+    }
+    &__pages{
+        display: block;
+        font-size: 30px;
+        @media screen and (min-width: 786px){
+            width: 30%;
+            font-size: 18px;
+            padding: 20px;
+        }
+    }
+    &__contact{
+        display: block;
+        font-size: 25px;
+        @media screen and (min-width: 786px){
+            width: 30%;
+            font-size: 18px;
+            padding: 20px;
+        }
+    }
+}
